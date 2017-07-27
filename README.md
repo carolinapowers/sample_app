@@ -12,7 +12,7 @@ To get started with the app, clone the repo and then install the needed gems:
 
 ```
 $ cd ~/tmp
-$ git clone <the repo>
+$ git clone https://github.com/carolinapowers/sample_app.git
 $ cd sample_app
 $ bundle install --without production
 ```
