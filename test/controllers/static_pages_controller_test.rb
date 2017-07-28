@@ -5,7 +5,8 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     get root_url
     assert_response :success
   end
-
+  
+  # Refers to home as root.^^
   # test 'should get home' do
   #   get home_url
   #   assert_response :success
@@ -13,7 +14,7 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   # end
 
   test 'should get help' do
-    get help_url
+    get carol_url
     assert_response :success
     assert_select 'title', 'Help | Ruby on Rails Tutorial Sample App'
   end
